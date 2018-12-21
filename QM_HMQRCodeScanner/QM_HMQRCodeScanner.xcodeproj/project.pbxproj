@@ -31,6 +31,23 @@
 		59CEF80E21CC99F700B8DC5F /* DQMNavUIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF7FD21CC99F700B8DC5F /* DQMNavUIBaseViewController.m */; };
 		59CEF80F21CC99F700B8DC5F /* DQMTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF7FE21CC99F700B8DC5F /* DQMTextViewController.m */; };
 		59CEF81021CC99F700B8DC5F /* DQMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF7FF21CC99F700B8DC5F /* DQMTableViewController.m */; };
+		59CEF81F21CCB91700B8DC5F /* HMScannerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF81321CCB91700B8DC5F /* HMScannerBorder.m */; };
+		59CEF82021CCB91700B8DC5F /* HMScannerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF81521CCB91700B8DC5F /* HMScannerMaskView.m */; };
+		59CEF82121CCB91700B8DC5F /* HMScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF81721CCB91700B8DC5F /* HMScannerViewController.m */; };
+		59CEF82221CCB91700B8DC5F /* HMScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF81821CCB91700B8DC5F /* HMScanner.m */; };
+		59CEF82321CCB91700B8DC5F /* HMScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 59CEF81921CCB91700B8DC5F /* HMScanner.bundle */; };
+		59CEF82421CCB91700B8DC5F /* HMScanerCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF81A21CCB91700B8DC5F /* HMScanerCardViewController.m */; };
+		59CEF82521CCB91700B8DC5F /* HMScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF81C21CCB91700B8DC5F /* HMScannerController.m */; };
+		59CEF82821CCB98500B8DC5F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF82721CCB98500B8DC5F /* FirstViewController.m */; };
+		59CEF82B21CCBC9F00B8DC5F /* DQMDefaultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF82A21CCBC9F00B8DC5F /* DQMDefaultTableViewCell.m */; };
+		59CEF83421CCC40400B8DC5F /* DQMStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF83321CCC40400B8DC5F /* DQMStaticTableViewController.m */; };
+		59CEF83821CCC48900B8DC5F /* StaticListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF83721CCC48900B8DC5F /* StaticListItem.m */; };
+		59CEF83B21CCC74800B8DC5F /* StaticSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF83A21CCC74800B8DC5F /* StaticSectionItem.m */; };
+		59CEF83E21CCCF0700B8DC5F /* StaticListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF83D21CCCF0700B8DC5F /* StaticListTableViewCell.m */; };
+		59CEF84221CCD01500B8DC5F /* UIImageView+SDwebImageFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF84121CCD01500B8DC5F /* UIImageView+SDwebImageFade.m */; };
+		59CEF84521CCD30D00B8DC5F /* QRCodeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF84421CCD30D00B8DC5F /* QRCodeTestViewController.m */; };
+		59CEF84821CCE16200B8DC5F /* JXTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF84721CCE16100B8DC5F /* JXTAlertController.m */; };
+		59CEF84B21CCE48500B8DC5F /* UIWindow+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF84A21CCE48500B8DC5F /* UIWindow+CurrentViewController.m */; };
 		7BDD1F2959EFEBFFD2B2F1A0 /* Pods_QM_HMQRCodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5136BEF4A366BABC30F468DD /* Pods_QM_HMQRCodeScanner.framework */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +121,39 @@
 		59CEF7FE21CC99F700B8DC5F /* DQMTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQMTextViewController.m; sourceTree = "<group>"; };
 		59CEF7FF21CC99F700B8DC5F /* DQMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQMTableViewController.m; sourceTree = "<group>"; };
 		59CEF80021CC99F700B8DC5F /* DQMRequestBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQMRequestBaseViewController.h; sourceTree = "<group>"; };
+		59CEF81221CCB91700B8DC5F /* HMScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScanner.h; sourceTree = "<group>"; };
+		59CEF81321CCB91700B8DC5F /* HMScannerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerBorder.m; sourceTree = "<group>"; };
+		59CEF81421CCB91700B8DC5F /* HMScannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerController.h; sourceTree = "<group>"; };
+		59CEF81521CCB91700B8DC5F /* HMScannerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerMaskView.m; sourceTree = "<group>"; };
+		59CEF81621CCB91700B8DC5F /* HMScanerCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScanerCardViewController.h; sourceTree = "<group>"; };
+		59CEF81721CCB91700B8DC5F /* HMScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerViewController.m; sourceTree = "<group>"; };
+		59CEF81821CCB91700B8DC5F /* HMScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScanner.m; sourceTree = "<group>"; };
+		59CEF81921CCB91700B8DC5F /* HMScanner.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMScanner.bundle; sourceTree = "<group>"; };
+		59CEF81A21CCB91700B8DC5F /* HMScanerCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScanerCardViewController.m; sourceTree = "<group>"; };
+		59CEF81B21CCB91700B8DC5F /* HMScannerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerMaskView.h; sourceTree = "<group>"; };
+		59CEF81C21CCB91700B8DC5F /* HMScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerController.m; sourceTree = "<group>"; };
+		59CEF81D21CCB91700B8DC5F /* HMScannerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerBorder.h; sourceTree = "<group>"; };
+		59CEF81E21CCB91700B8DC5F /* HMScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerViewController.h; sourceTree = "<group>"; };
+		59CEF82621CCB98500B8DC5F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		59CEF82721CCB98500B8DC5F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		59CEF82921CCBC9F00B8DC5F /* DQMDefaultTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMDefaultTableViewCell.h; sourceTree = "<group>"; };
+		59CEF82A21CCBC9F00B8DC5F /* DQMDefaultTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMDefaultTableViewCell.m; sourceTree = "<group>"; };
+		59CEF83221CCC40400B8DC5F /* DQMStaticTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMStaticTableViewController.h; sourceTree = "<group>"; };
+		59CEF83321CCC40400B8DC5F /* DQMStaticTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMStaticTableViewController.m; sourceTree = "<group>"; };
+		59CEF83621CCC48900B8DC5F /* StaticListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticListItem.h; sourceTree = "<group>"; };
+		59CEF83721CCC48900B8DC5F /* StaticListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticListItem.m; sourceTree = "<group>"; };
+		59CEF83921CCC74800B8DC5F /* StaticSectionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticSectionItem.h; sourceTree = "<group>"; };
+		59CEF83A21CCC74800B8DC5F /* StaticSectionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticSectionItem.m; sourceTree = "<group>"; };
+		59CEF83C21CCCF0700B8DC5F /* StaticListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticListTableViewCell.h; sourceTree = "<group>"; };
+		59CEF83D21CCCF0700B8DC5F /* StaticListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticListTableViewCell.m; sourceTree = "<group>"; };
+		59CEF84021CCD01500B8DC5F /* UIImageView+SDwebImageFade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDwebImageFade.h"; sourceTree = "<group>"; };
+		59CEF84121CCD01500B8DC5F /* UIImageView+SDwebImageFade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDwebImageFade.m"; sourceTree = "<group>"; };
+		59CEF84321CCD30D00B8DC5F /* QRCodeTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeTestViewController.h; sourceTree = "<group>"; };
+		59CEF84421CCD30D00B8DC5F /* QRCodeTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeTestViewController.m; sourceTree = "<group>"; };
+		59CEF84621CCE16100B8DC5F /* JXTAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTAlertController.h; sourceTree = "<group>"; };
+		59CEF84721CCE16100B8DC5F /* JXTAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTAlertController.m; sourceTree = "<group>"; };
+		59CEF84921CCE48500B8DC5F /* UIWindow+CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CurrentViewController.h"; sourceTree = "<group>"; };
+		59CEF84A21CCE48500B8DC5F /* UIWindow+CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CurrentViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +225,13 @@
 				59CEF7B121CC99A800B8DC5F /* LaunchScreen.storyboard */,
 				59CEF7B421CC99A800B8DC5F /* Info.plist */,
 				59CEF7B521CC99A800B8DC5F /* main.m */,
+				59CEF82621CCB98500B8DC5F /* FirstViewController.h */,
+				59CEF82721CCB98500B8DC5F /* FirstViewController.m */,
+				59CEF84321CCD30D00B8DC5F /* QRCodeTestViewController.h */,
+				59CEF84421CCD30D00B8DC5F /* QRCodeTestViewController.m */,
+				59CEF81121CCB91700B8DC5F /* HMQRCodeScanner */,
 				59CEF7F421CC99F700B8DC5F /* BaseControllers */,
+				59CEF83521CCC44800B8DC5F /* BaseModels */,
 				59CEF7D821CC99F700B8DC5F /* BaseViews */,
 				59CEF7DE21CC99F700B8DC5F /* Category */,
 				59CEF7ED21CC99F700B8DC5F /* Helpers */,
@@ -204,10 +260,14 @@
 		59CEF7D821CC99F700B8DC5F /* BaseViews */ = {
 			isa = PBXGroup;
 			children = (
+				59CEF7DB21CC99F700B8DC5F /* DQMNavigationBar.h */,
 				59CEF7D921CC99F700B8DC5F /* DQMNavigationBar.m */,
 				59CEF7DA21CC99F700B8DC5F /* DQMAutoRefreshFooter.h */,
-				59CEF7DB21CC99F700B8DC5F /* DQMNavigationBar.h */,
 				59CEF7DC21CC99F700B8DC5F /* DQMAutoRefreshFooter.m */,
+				59CEF82921CCBC9F00B8DC5F /* DQMDefaultTableViewCell.h */,
+				59CEF82A21CCBC9F00B8DC5F /* DQMDefaultTableViewCell.m */,
+				59CEF83C21CCCF0700B8DC5F /* StaticListTableViewCell.h */,
+				59CEF83D21CCCF0700B8DC5F /* StaticListTableViewCell.m */,
 			);
 			path = BaseViews;
 			sourceTree = "<group>";
@@ -215,10 +275,12 @@
 		59CEF7DE21CC99F700B8DC5F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				59CEF84C21CCE48900B8DC5F /* UIWindow */,
+				59CEF83F21CCCFFE00B8DC5F /* UIImageView */,
 				59CEF7DF21CC99F700B8DC5F /* UIView */,
 				59CEF7E421CC99F700B8DC5F /* MBProgressHUD+DQM */,
-				59CEF7E721CC99F700B8DC5F /* UINavigationController+FDFullscreenPopGesture */,
-				59CEF7EA21CC99F700B8DC5F /* UIButton+DQM */,
+				59CEF7E721CC99F700B8DC5F /* UINavigationController */,
+				59CEF7EA21CC99F700B8DC5F /* UIButton */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -243,31 +305,33 @@
 			path = "MBProgressHUD+DQM";
 			sourceTree = "<group>";
 		};
-		59CEF7E721CC99F700B8DC5F /* UINavigationController+FDFullscreenPopGesture */ = {
+		59CEF7E721CC99F700B8DC5F /* UINavigationController */ = {
 			isa = PBXGroup;
 			children = (
 				59CEF7E821CC99F700B8DC5F /* UINavigationController+FDFullscreenPopGesture.h */,
 				59CEF7E921CC99F700B8DC5F /* UINavigationController+FDFullscreenPopGesture.m */,
 			);
-			path = "UINavigationController+FDFullscreenPopGesture";
+			path = UINavigationController;
 			sourceTree = "<group>";
 		};
-		59CEF7EA21CC99F700B8DC5F /* UIButton+DQM */ = {
+		59CEF7EA21CC99F700B8DC5F /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
 				59CEF7EB21CC99F700B8DC5F /* UIButton+DQM.h */,
 				59CEF7EC21CC99F700B8DC5F /* UIButton+DQM.m */,
 			);
-			path = "UIButton+DQM";
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 		59CEF7ED21CC99F700B8DC5F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				59CEF84621CCE16100B8DC5F /* JXTAlertController.h */,
+				59CEF84721CCE16100B8DC5F /* JXTAlertController.m */,
 				59CEF7EE21CC99F700B8DC5F /* YYFPSLabel.h */,
-				59CEF7EF21CC99F700B8DC5F /* QMSGeneralHelpers.h */,
 				59CEF7F021CC99F700B8DC5F /* DQMConst.h */,
 				59CEF7F121CC99F700B8DC5F /* YYFPSLabel.m */,
+				59CEF7EF21CC99F700B8DC5F /* QMSGeneralHelpers.h */,
 				59CEF7F221CC99F700B8DC5F /* QMSGeneralHelpers.m */,
 				59CEF7F321CC99F700B8DC5F /* DQMConst.m */,
 			);
@@ -277,20 +341,71 @@
 		59CEF7F421CC99F700B8DC5F /* BaseControllers */ = {
 			isa = PBXGroup;
 			children = (
-				59CEF7F521CC99F700B8DC5F /* DQMBaseViewController.h */,
 				59CEF7F621CC99F700B8DC5F /* DQMNavUIBaseViewController.h */,
-				59CEF7F721CC99F700B8DC5F /* DQMNavigationController.h */,
+				59CEF7FD21CC99F700B8DC5F /* DQMNavUIBaseViewController.m */,
 				59CEF7F821CC99F700B8DC5F /* DQMTextViewController.h */,
+				59CEF7FE21CC99F700B8DC5F /* DQMTextViewController.m */,
+				59CEF7F521CC99F700B8DC5F /* DQMBaseViewController.h */,
+				59CEF7FB21CC99F700B8DC5F /* DQMBaseViewController.m */,
+				59CEF7F721CC99F700B8DC5F /* DQMNavigationController.h */,
+				59CEF7FC21CC99F700B8DC5F /* DQMNavigationController.m */,
+				59CEF80021CC99F700B8DC5F /* DQMRequestBaseViewController.h */,
 				59CEF7F921CC99F700B8DC5F /* DQMRequestBaseViewController.m */,
 				59CEF7FA21CC99F700B8DC5F /* DQMTableViewController.h */,
-				59CEF7FB21CC99F700B8DC5F /* DQMBaseViewController.m */,
-				59CEF7FC21CC99F700B8DC5F /* DQMNavigationController.m */,
-				59CEF7FD21CC99F700B8DC5F /* DQMNavUIBaseViewController.m */,
-				59CEF7FE21CC99F700B8DC5F /* DQMTextViewController.m */,
 				59CEF7FF21CC99F700B8DC5F /* DQMTableViewController.m */,
-				59CEF80021CC99F700B8DC5F /* DQMRequestBaseViewController.h */,
+				59CEF83221CCC40400B8DC5F /* DQMStaticTableViewController.h */,
+				59CEF83321CCC40400B8DC5F /* DQMStaticTableViewController.m */,
 			);
 			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		59CEF81121CCB91700B8DC5F /* HMQRCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				59CEF81221CCB91700B8DC5F /* HMScanner.h */,
+				59CEF81321CCB91700B8DC5F /* HMScannerBorder.m */,
+				59CEF81421CCB91700B8DC5F /* HMScannerController.h */,
+				59CEF81521CCB91700B8DC5F /* HMScannerMaskView.m */,
+				59CEF81621CCB91700B8DC5F /* HMScanerCardViewController.h */,
+				59CEF81721CCB91700B8DC5F /* HMScannerViewController.m */,
+				59CEF81821CCB91700B8DC5F /* HMScanner.m */,
+				59CEF81921CCB91700B8DC5F /* HMScanner.bundle */,
+				59CEF81A21CCB91700B8DC5F /* HMScanerCardViewController.m */,
+				59CEF81B21CCB91700B8DC5F /* HMScannerMaskView.h */,
+				59CEF81C21CCB91700B8DC5F /* HMScannerController.m */,
+				59CEF81D21CCB91700B8DC5F /* HMScannerBorder.h */,
+				59CEF81E21CCB91700B8DC5F /* HMScannerViewController.h */,
+			);
+			path = HMQRCodeScanner;
+			sourceTree = "<group>";
+		};
+		59CEF83521CCC44800B8DC5F /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+				59CEF83621CCC48900B8DC5F /* StaticListItem.h */,
+				59CEF83721CCC48900B8DC5F /* StaticListItem.m */,
+				59CEF83921CCC74800B8DC5F /* StaticSectionItem.h */,
+				59CEF83A21CCC74800B8DC5F /* StaticSectionItem.m */,
+			);
+			path = BaseModels;
+			sourceTree = "<group>";
+		};
+		59CEF83F21CCCFFE00B8DC5F /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				59CEF84021CCD01500B8DC5F /* UIImageView+SDwebImageFade.h */,
+				59CEF84121CCD01500B8DC5F /* UIImageView+SDwebImageFade.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		59CEF84C21CCE48900B8DC5F /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				59CEF84921CCE48500B8DC5F /* UIWindow+CurrentViewController.h */,
+				59CEF84A21CCE48500B8DC5F /* UIWindow+CurrentViewController.m */,
+			);
+			path = UIWindow;
 			sourceTree = "<group>";
 		};
 		9AA8C589C2721C735FB489BF /* Pods */ = {
@@ -410,6 +525,7 @@
 				59CEF7B321CC99A800B8DC5F /* LaunchScreen.storyboard in Resources */,
 				59CEF7B021CC99A800B8DC5F /* Assets.xcassets in Resources */,
 				59CEF7AE21CC99A700B8DC5F /* Main.storyboard in Resources */,
+				59CEF82321CCB91700B8DC5F /* HMScanner.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,23 +571,27 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QM_HMQRCodeScanner/Pods-QM_HMQRCodeScanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
 				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
 			);
@@ -492,17 +612,33 @@
 				59CEF80C21CC99F700B8DC5F /* DQMBaseViewController.m in Sources */,
 				59CEF80521CC99F700B8DC5F /* MBProgressHUD+DQM.m in Sources */,
 				59CEF80121CC99F700B8DC5F /* DQMNavigationBar.m in Sources */,
+				59CEF81F21CCB91700B8DC5F /* HMScannerBorder.m in Sources */,
 				59CEF80821CC99F700B8DC5F /* YYFPSLabel.m in Sources */,
+				59CEF82821CCB98500B8DC5F /* FirstViewController.m in Sources */,
 				59CEF80921CC99F700B8DC5F /* QMSGeneralHelpers.m in Sources */,
+				59CEF84221CCD01500B8DC5F /* UIImageView+SDwebImageFade.m in Sources */,
+				59CEF82121CCB91700B8DC5F /* HMScannerViewController.m in Sources */,
+				59CEF83B21CCC74800B8DC5F /* StaticSectionItem.m in Sources */,
 				59CEF7AB21CC99A700B8DC5F /* ViewController.m in Sources */,
+				59CEF84821CCE16200B8DC5F /* JXTAlertController.m in Sources */,
+				59CEF83421CCC40400B8DC5F /* DQMStaticTableViewController.m in Sources */,
+				59CEF82B21CCBC9F00B8DC5F /* DQMDefaultTableViewCell.m in Sources */,
 				59CEF81021CC99F700B8DC5F /* DQMTableViewController.m in Sources */,
+				59CEF84521CCD30D00B8DC5F /* QRCodeTestViewController.m in Sources */,
 				59CEF80621CC99F700B8DC5F /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				59CEF80421CC99F700B8DC5F /* UIView+DQMFrame.m in Sources */,
+				59CEF83821CCC48900B8DC5F /* StaticListItem.m in Sources */,
+				59CEF82521CCB91700B8DC5F /* HMScannerController.m in Sources */,
 				59CEF80E21CC99F700B8DC5F /* DQMNavUIBaseViewController.m in Sources */,
+				59CEF84B21CCE48500B8DC5F /* UIWindow+CurrentViewController.m in Sources */,
 				59CEF80D21CC99F700B8DC5F /* DQMNavigationController.m in Sources */,
 				59CEF80221CC99F700B8DC5F /* DQMAutoRefreshFooter.m in Sources */,
+				59CEF82021CCB91700B8DC5F /* HMScannerMaskView.m in Sources */,
+				59CEF82421CCB91700B8DC5F /* HMScanerCardViewController.m in Sources */,
 				59CEF80321CC99F700B8DC5F /* UIView+GestureCallback.m in Sources */,
 				59CEF80F21CC99F700B8DC5F /* DQMTextViewController.m in Sources */,
+				59CEF82221CCB91700B8DC5F /* HMScanner.m in Sources */,
+				59CEF83E21CCCF0700B8DC5F /* StaticListTableViewCell.m in Sources */,
 				59CEF7B621CC99A800B8DC5F /* main.m in Sources */,
 				59CEF7A821CC99A700B8DC5F /* AppDelegate.m in Sources */,
 				59CEF80A21CC99F700B8DC5F /* DQMConst.m in Sources */,

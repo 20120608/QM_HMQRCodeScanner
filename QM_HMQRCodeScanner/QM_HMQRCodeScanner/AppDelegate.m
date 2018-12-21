@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "YYFPSLabel.h"
+#import "FirstViewController.h"
+#import "DQMNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
+  
+  FirstViewController *vc = [[FirstViewController alloc] initWithTitle:@"首页"];
+  DQMNavigationController *navigationController = [[DQMNavigationController alloc] initWithRootViewController:vc];
+  self.window.rootViewController = navigationController;
+  [self.window makeKeyAndVisible];
+
+  [self.window addSubview:[[YYFPSLabel alloc] initWithFrame:CGRectMake(20, 90, 0, 0)]];
+  
   return YES;
 }
 
