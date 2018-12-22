@@ -11,6 +11,12 @@
 
 @interface QMSGeneralHelpers : NSObject
 
+//获取单利
++(instancetype)shareInstance;
+
+
+
+
 
 /**
  由NSString 转成带颜色字体大小的 NSMutableAttributedString
@@ -32,5 +38,13 @@
  @return 是否打开成功
  */
 + (BOOL)modifyFlashLight;
+
+
+
+
+- (UIImage *)imageWithName:(NSString *)imageName bundle:(NSString *)bundleName;
+
+
+
 
 @end

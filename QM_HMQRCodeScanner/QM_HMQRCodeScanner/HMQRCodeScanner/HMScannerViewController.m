@@ -200,8 +200,9 @@
   //散光灯功能
   UIButton *flashLightButton = [[UIButton alloc] initWithFrame:CGRectMake((kScreenWidth-flashLightSize.width)/2, CGRectGetMaxY(scannerBorder.frame)-flashLightSize.height-10, flashLightSize.width, flashLightSize.height)];
   flashLightButton.hidden = _hideLightButton;
-  [flashLightButton setImage:[UIImage imageNamed:@"flashlight-off"] forState:UIControlStateNormal];
-  [flashLightButton setImage:[UIImage imageNamed:@"flashlight-on"] forState:UIControlStateSelected];
+  [flashLightButton setImage:[[QMSGeneralHelpers shareInstance] imageWithName:@"flashlight-off" bundle:@"HMScanner"]
+ forState:UIControlStateNormal];
+  [flashLightButton setImage:[[QMSGeneralHelpers shareInstance] imageWithName:@"flashlight-on" bundle:@"HMScanner"] forState:UIControlStateSelected];
   [self.view addSubview:flashLightButton];
   [flashLightButton addTarget:self action:@selector(modifyFlashLight:) forControlEvents:UIControlEventTouchUpInside];
   

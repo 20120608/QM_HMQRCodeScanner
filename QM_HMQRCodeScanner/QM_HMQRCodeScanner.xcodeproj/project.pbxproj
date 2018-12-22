@@ -35,7 +35,6 @@
 		59CEF82021CCB91700B8DC5F /* HMScannerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF81521CCB91700B8DC5F /* HMScannerMaskView.m */; };
 		59CEF82121CCB91700B8DC5F /* HMScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF81721CCB91700B8DC5F /* HMScannerViewController.m */; };
 		59CEF82221CCB91700B8DC5F /* HMScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF81821CCB91700B8DC5F /* HMScanner.m */; };
-		59CEF82321CCB91700B8DC5F /* HMScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 59CEF81921CCB91700B8DC5F /* HMScanner.bundle */; };
 		59CEF82421CCB91700B8DC5F /* HMScanerCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF81A21CCB91700B8DC5F /* HMScanerCardViewController.m */; };
 		59CEF82521CCB91700B8DC5F /* HMScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF81C21CCB91700B8DC5F /* HMScannerController.m */; };
 		59CEF82821CCB98500B8DC5F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF82721CCB98500B8DC5F /* FirstViewController.m */; };
@@ -49,6 +48,7 @@
 		59CEF84821CCE16200B8DC5F /* JXTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF84721CCE16100B8DC5F /* JXTAlertController.m */; };
 		59CEF84B21CCE48500B8DC5F /* UIWindow+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF84A21CCE48500B8DC5F /* UIWindow+CurrentViewController.m */; };
 		59CEF84E21CDBE2A00B8DC5F /* DqmBaseAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59CEF84D21CDBE2A00B8DC5F /* DqmBaseAssets.xcassets */; };
+		59CEF85721CDD9B900B8DC5F /* HMScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 59CEF85621CDD9B900B8DC5F /* HMScanner.bundle */; };
 		7BDD1F2959EFEBFFD2B2F1A0 /* Pods_QM_HMQRCodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5136BEF4A366BABC30F468DD /* Pods_QM_HMQRCodeScanner.framework */; };
 /* End PBXBuildFile section */
 
@@ -128,7 +128,6 @@
 		59CEF81521CCB91700B8DC5F /* HMScannerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerMaskView.m; sourceTree = "<group>"; };
 		59CEF81721CCB91700B8DC5F /* HMScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerViewController.m; sourceTree = "<group>"; };
 		59CEF81821CCB91700B8DC5F /* HMScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScanner.m; sourceTree = "<group>"; };
-		59CEF81921CCB91700B8DC5F /* HMScanner.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMScanner.bundle; sourceTree = "<group>"; };
 		59CEF81A21CCB91700B8DC5F /* HMScanerCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScanerCardViewController.m; sourceTree = "<group>"; };
 		59CEF81B21CCB91700B8DC5F /* HMScannerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerMaskView.h; sourceTree = "<group>"; };
 		59CEF81C21CCB91700B8DC5F /* HMScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerController.m; sourceTree = "<group>"; };
@@ -156,6 +155,7 @@
 		59CEF84A21CCE48500B8DC5F /* UIWindow+CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CurrentViewController.m"; sourceTree = "<group>"; };
 		59CEF84D21CDBE2A00B8DC5F /* DqmBaseAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DqmBaseAssets.xcassets; sourceTree = "<group>"; };
 		59CEF84F21CDBFCD00B8DC5F /* HMScanerCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMScanerCardViewController.h; sourceTree = "<group>"; };
+		59CEF85621CDD9B900B8DC5F /* HMScanner.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMScanner.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,7 +365,7 @@
 		59CEF81121CCB91700B8DC5F /* HMQRCodeScanner */ = {
 			isa = PBXGroup;
 			children = (
-				59CEF81921CCB91700B8DC5F /* HMScanner.bundle */,
+				59CEF85621CDD9B900B8DC5F /* HMScanner.bundle */,
 				59CEF81221CCB91700B8DC5F /* HMScanner.h */,
 				59CEF81821CCB91700B8DC5F /* HMScanner.m */,
 				59CEF81D21CCB91700B8DC5F /* HMScannerBorder.h */,
@@ -525,11 +525,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59CEF85721CDD9B900B8DC5F /* HMScanner.bundle in Resources */,
 				59CEF7B321CC99A800B8DC5F /* LaunchScreen.storyboard in Resources */,
 				59CEF7B021CC99A800B8DC5F /* Assets.xcassets in Resources */,
 				59CEF7AE21CC99A700B8DC5F /* Main.storyboard in Resources */,
 				59CEF84E21CDBE2A00B8DC5F /* DqmBaseAssets.xcassets in Resources */,
-				59CEF82321CCB91700B8DC5F /* HMScanner.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

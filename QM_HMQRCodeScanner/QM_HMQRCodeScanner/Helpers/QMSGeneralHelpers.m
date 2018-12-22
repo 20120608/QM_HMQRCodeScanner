@@ -16,6 +16,21 @@
 @implementation QMSGeneralHelpers
 
 
+//获取单利
++(instancetype)shareInstance
+{
+  static QMSGeneralHelpers *helpers = nil;
+  static dispatch_once_t onceToken;
+  dispatch_once(&onceToken, ^{
+    helpers = [[self alloc] init];
+    
+  });
+  return helpers;
+}
+
+
+
+
 
 /**
  由NSString 转成带颜色字体大小的 NSMutableAttributedString
@@ -63,7 +78,25 @@
 
 
 
+/**
+ 从bundle中取出图片
 
+ @param imageName 图片名称
+ @param bundleName 哪个bundle文件的文件名
+ @return UIImage
+ */
+- (UIImage *)imageWithName:(NSString *)imageName bundle:(NSString *)bundleName {
+  
+  NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+  NSURL *url = [bundle URLForResource:bundleName withExtension:@"bundle"];
+  NSBundle *imageBundle = [NSBundle bundleWithURL:url];
+  
+  NSString *fileName = [NSString stringWithFormat:@"%@@2x", imageName];
+  NSString *path = [imageBundle pathForResource:fileName ofType:@"png"];
+  
+  return [[UIImage imageWithContentsOfFile:path] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+  
+}
 
 
 
