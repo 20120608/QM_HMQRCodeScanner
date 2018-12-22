@@ -8,6 +8,11 @@
 
 #import "QMSGeneralHelpers.h"
 
+//闪光灯用到的
+#import <AVFoundation/AVFoundation.h>
+#import <ImageIO/ImageIO.h>
+
+
 @implementation QMSGeneralHelpers
 
 
@@ -29,4 +34,39 @@
   [title addAttribute:NSFontAttributeName value:font range:rangeOfFont];
   return title;
 }
+
+
+
+
+/** 开或关 闪光灯 */
++ (BOOL)modifyFlashLight {
+  AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+  //修改前必须先锁定
+  [device lockForConfiguration:nil];
+  //必须判定是否有闪光灯，否则如果没有闪光灯会崩溃
+  BOOL isopen = false;
+  if ([device hasFlash]) {
+    if (device.flashMode == AVCaptureFlashModeOff) {
+      device.flashMode = AVCaptureFlashModeOn;
+      device.torchMode = AVCaptureTorchModeOn;
+      isopen = true;
+    } else if (device.flashMode == AVCaptureFlashModeOn) {
+      device.flashMode = AVCaptureFlashModeOff;
+      device.torchMode = AVCaptureTorchModeOff;
+      isopen = false;
+    }
+  }
+  [device unlockForConfiguration];
+  return isopen;
+}
+
+
+
+
+
+
+
+
+
+
 @end

@@ -25,7 +25,7 @@
 - (instancetype)initWithCardName:(NSString *)cardName avatar:(UIImage *)avatar completion:(void (^)(NSString *))completion {
     self = [super init];
     if (self) {
-        HMScannerViewController *scanner = [[HMScannerViewController alloc] initWithCardName:cardName avatar:avatar completion:completion];
+      HMScannerViewController *scanner = [[HMScannerViewController alloc] initWithCardName:cardName avatar:avatar hideCardButton:true hideLightButton:false completion:completion];
         
         [self setTitleColor:[UIColor whiteColor] tintColor:[UIColor greenColor]];
         

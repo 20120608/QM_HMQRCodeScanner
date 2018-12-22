@@ -85,12 +85,10 @@
 
 
 
-
 /** 导航条左边的按钮 */
 - (UIImage *)dqmNavigationBarLeftButtonImage:(UIButton *)leftButton navigationBar:(DQMNavigationBar *)navigationBar
 {
   [leftButton setImage:[UIImage imageNamed:@"NavgationBar_white_back"] forState:UIControlStateHighlighted];
-  
   return [UIImage imageNamed:@"NavgationBar_blue_back"];
 }
 
@@ -100,7 +98,6 @@
 {
   [self.navigationController popViewControllerAnimated:YES];
 }
-
 
 
 @end

@@ -26,5 +26,11 @@
 
 
 
+/**
+ 打开或关闭闪光灯功能
+
+ @return 是否打开成功
+ */
++ (BOOL)modifyFlashLight;
 
 @end

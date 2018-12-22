@@ -16,6 +16,8 @@
 #define kControlMargin  32.0
 /// 相册图片最大尺寸
 #define kImageMaxSize   CGSizeMake(1000, 1000)
+//闪光灯按钮大小
+#define flashLightSize   CGSizeMake(60, 60)
 
 @interface HMScannerViewController () <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 /// 名片字符串
@@ -35,14 +37,16 @@
     UILabel *tipLabel;
 }
 
-- (instancetype)initWithCardName:(NSString *)cardName avatar:(UIImage *)avatar completion:(void (^)(NSString *))completion {
-    self = [super init];
-    if (self) {
-        self.cardName = cardName;
-        self.avatar = avatar;
-        self.completionCallBack = completion;
-    }
-    return self;
+- (instancetype)initWithCardName:(NSString *)cardName avatar:(UIImage *)avatar hideCardButton:(BOOL)hideCardButton hideLightButton:(BOOL)hideLightButton completion:(void (^)(NSString *))completion {
+  self = [super init];
+  if (self) {
+    self.cardName = cardName;
+    self.avatar = avatar;
+    self.completionCallBack = completion;
+    self.hideCardButton = hideCardButton;
+    self.hideLightButton = hideLightButton;
+  }
+  return self;
 }
 
 - (void)viewDidLoad {
@@ -103,6 +107,11 @@
     HMScanerCardViewController *vc = [[HMScanerCardViewController alloc] initWithCardName:self.cardName avatar:self.avatar];
     
     [self showViewController:vc sender:nil];
+}
+
+/// 打开或关闭闪光灯
+- (void)modifyFlashLight:(UIButton *)sender {
+ [sender setSelected:[QMSGeneralHelpers modifyFlashLight]];
 }
 
 #pragma mark - UIImagePickerControllerDelegate
@@ -175,7 +184,7 @@
     
     // 2> 名片按钮
     UIButton *cardButton = [[UIButton alloc] init];
-    
+    cardButton.hidden = _hideCardButton;
     [cardButton setTitle:@"我的名片" forState:UIControlStateNormal];
     cardButton.titleLabel.font = [UIFont systemFontOfSize:15];
     [cardButton setTitleColor:self.navigationController.navigationBar.tintColor forState:UIControlStateNormal];
@@ -186,7 +195,22 @@
     [self.view addSubview:cardButton];
     
     [cardButton addTarget:self action:@selector(clickCardButton) forControlEvents:UIControlEventTouchUpInside];
+  
+  
+  //散光灯功能
+  UIButton *flashLightButton = [[UIButton alloc] initWithFrame:CGRectMake((kScreenWidth-flashLightSize.width)/2, CGRectGetMaxY(scannerBorder.frame)-flashLightSize.height-10, flashLightSize.width, flashLightSize.height)];
+  flashLightButton.hidden = _hideLightButton;
+  [flashLightButton setImage:[UIImage imageNamed:@"flashlight-off"] forState:UIControlStateNormal];
+  [flashLightButton setImage:[UIImage imageNamed:@"flashlight-on"] forState:UIControlStateSelected];
+  [self.view addSubview:flashLightButton];
+  [flashLightButton addTarget:self action:@selector(modifyFlashLight:) forControlEvents:UIControlEventTouchUpInside];
+  
+  
 }
+
+
+
+
 
 /// 准备扫描框
 - (void)prepareScanerBorder {
