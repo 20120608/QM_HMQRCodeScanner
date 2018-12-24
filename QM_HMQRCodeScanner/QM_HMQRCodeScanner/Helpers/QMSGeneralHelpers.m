@@ -53,6 +53,11 @@
 
 
 
+
+
+
+
+
 /** 开或关 闪光灯 */
 + (BOOL)modifyFlashLight {
   AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
@@ -74,6 +79,10 @@
   [device unlockForConfiguration];
   return isopen;
 }
+
+
+
+
 
 
 
@@ -100,6 +109,34 @@
 
 
 
+
+
+
+/**
+ 将View生成Image
+ 
+ @param view 要生成图片的视图
+ @return 图片
+ */
++ (UIImage *)imageWithCaputureView:(UIView *)view
+{
+  // 开启位图上下文
+  UIGraphicsBeginImageContextWithOptions(view.bounds.size, NO, 0);
+  
+  // 获取上下文
+  CGContextRef ctx = UIGraphicsGetCurrentContext();
+  
+  // 把控件上的图层渲染到上下文,layer只能渲染
+  [view.layer renderInContext:ctx];
+  
+  // 生成一张图片
+  UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+  
+  // 关闭上下文
+  UIGraphicsEndImageContext();
+  
+  return image;
+}
 
 
 @end

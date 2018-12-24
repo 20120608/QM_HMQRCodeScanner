@@ -217,27 +217,27 @@
 		59CEF7A521CC99A700B8DC5F /* QM_HMQRCodeScanner */ = {
 			isa = PBXGroup;
 			children = (
-				59CEF7A621CC99A700B8DC5F /* AppDelegate.h */,
-				59CEF7A721CC99A700B8DC5F /* AppDelegate.m */,
-				59CEF7DD21CC99F700B8DC5F /* dqmBasePrefix.pch */,
-				59CEF7A921CC99A700B8DC5F /* ViewController.h */,
-				59CEF7AA21CC99A700B8DC5F /* ViewController.m */,
-				59CEF7AC21CC99A700B8DC5F /* Main.storyboard */,
-				59CEF7AF21CC99A800B8DC5F /* Assets.xcassets */,
-				59CEF7B121CC99A800B8DC5F /* LaunchScreen.storyboard */,
-				59CEF7B421CC99A800B8DC5F /* Info.plist */,
-				59CEF7B521CC99A800B8DC5F /* main.m */,
-				59CEF82621CCB98500B8DC5F /* FirstViewController.h */,
-				59CEF82721CCB98500B8DC5F /* FirstViewController.m */,
-				59CEF84321CCD30D00B8DC5F /* QRCodeTestViewController.h */,
-				59CEF84421CCD30D00B8DC5F /* QRCodeTestViewController.m */,
 				59CEF84D21CDBE2A00B8DC5F /* DqmBaseAssets.xcassets */,
-				59CEF81121CCB91700B8DC5F /* HMQRCodeScanner */,
 				59CEF7F421CC99F700B8DC5F /* BaseControllers */,
 				59CEF83521CCC44800B8DC5F /* BaseModels */,
 				59CEF7D821CC99F700B8DC5F /* BaseViews */,
 				59CEF7DE21CC99F700B8DC5F /* Category */,
 				59CEF7ED21CC99F700B8DC5F /* Helpers */,
+				59CEF81121CCB91700B8DC5F /* HMQRCodeScanner */,
+				59CEF7A621CC99A700B8DC5F /* AppDelegate.h */,
+				59CEF7A721CC99A700B8DC5F /* AppDelegate.m */,
+				59CEF7AF21CC99A800B8DC5F /* Assets.xcassets */,
+				59CEF7DD21CC99F700B8DC5F /* dqmBasePrefix.pch */,
+				59CEF7B421CC99A800B8DC5F /* Info.plist */,
+				59CEF7B121CC99A800B8DC5F /* LaunchScreen.storyboard */,
+				59CEF7B521CC99A800B8DC5F /* main.m */,
+				59CEF7AC21CC99A700B8DC5F /* Main.storyboard */,
+				59CEF82621CCB98500B8DC5F /* FirstViewController.h */,
+				59CEF82721CCB98500B8DC5F /* FirstViewController.m */,
+				59CEF84321CCD30D00B8DC5F /* QRCodeTestViewController.h */,
+				59CEF84421CCD30D00B8DC5F /* QRCodeTestViewController.m */,
+				59CEF7A921CC99A700B8DC5F /* ViewController.h */,
+				59CEF7AA21CC99A700B8DC5F /* ViewController.m */,
 			);
 			path = QM_HMQRCodeScanner;
 			sourceTree = "<group>";
@@ -263,12 +263,12 @@
 		59CEF7D821CC99F700B8DC5F /* BaseViews */ = {
 			isa = PBXGroup;
 			children = (
-				59CEF7DB21CC99F700B8DC5F /* DQMNavigationBar.h */,
-				59CEF7D921CC99F700B8DC5F /* DQMNavigationBar.m */,
 				59CEF7DA21CC99F700B8DC5F /* DQMAutoRefreshFooter.h */,
 				59CEF7DC21CC99F700B8DC5F /* DQMAutoRefreshFooter.m */,
 				59CEF82921CCBC9F00B8DC5F /* DQMDefaultTableViewCell.h */,
 				59CEF82A21CCBC9F00B8DC5F /* DQMDefaultTableViewCell.m */,
+				59CEF7DB21CC99F700B8DC5F /* DQMNavigationBar.h */,
+				59CEF7D921CC99F700B8DC5F /* DQMNavigationBar.m */,
 				59CEF83C21CCCF0700B8DC5F /* StaticListTableViewCell.h */,
 				59CEF83D21CCCF0700B8DC5F /* StaticListTableViewCell.m */,
 			);
@@ -278,12 +278,12 @@
 		59CEF7DE21CC99F700B8DC5F /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				59CEF84C21CCE48900B8DC5F /* UIWindow */,
-				59CEF83F21CCCFFE00B8DC5F /* UIImageView */,
-				59CEF7DF21CC99F700B8DC5F /* UIView */,
 				59CEF7E421CC99F700B8DC5F /* MBProgressHUD+DQM */,
-				59CEF7E721CC99F700B8DC5F /* UINavigationController */,
 				59CEF7EA21CC99F700B8DC5F /* UIButton */,
+				59CEF83F21CCCFFE00B8DC5F /* UIImageView */,
+				59CEF7E721CC99F700B8DC5F /* UINavigationController */,
+				59CEF7DF21CC99F700B8DC5F /* UIView */,
+				59CEF84C21CCE48900B8DC5F /* UIWindow */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -329,14 +329,14 @@
 		59CEF7ED21CC99F700B8DC5F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				59CEF7F021CC99F700B8DC5F /* DQMConst.h */,
+				59CEF7F321CC99F700B8DC5F /* DQMConst.m */,
 				59CEF84621CCE16100B8DC5F /* JXTAlertController.h */,
 				59CEF84721CCE16100B8DC5F /* JXTAlertController.m */,
-				59CEF7EE21CC99F700B8DC5F /* YYFPSLabel.h */,
-				59CEF7F021CC99F700B8DC5F /* DQMConst.h */,
-				59CEF7F121CC99F700B8DC5F /* YYFPSLabel.m */,
 				59CEF7EF21CC99F700B8DC5F /* QMSGeneralHelpers.h */,
 				59CEF7F221CC99F700B8DC5F /* QMSGeneralHelpers.m */,
-				59CEF7F321CC99F700B8DC5F /* DQMConst.m */,
+				59CEF7EE21CC99F700B8DC5F /* YYFPSLabel.h */,
+				59CEF7F121CC99F700B8DC5F /* YYFPSLabel.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -344,20 +344,20 @@
 		59CEF7F421CC99F700B8DC5F /* BaseControllers */ = {
 			isa = PBXGroup;
 			children = (
-				59CEF7F621CC99F700B8DC5F /* DQMNavUIBaseViewController.h */,
-				59CEF7FD21CC99F700B8DC5F /* DQMNavUIBaseViewController.m */,
-				59CEF7F821CC99F700B8DC5F /* DQMTextViewController.h */,
-				59CEF7FE21CC99F700B8DC5F /* DQMTextViewController.m */,
 				59CEF7F521CC99F700B8DC5F /* DQMBaseViewController.h */,
 				59CEF7FB21CC99F700B8DC5F /* DQMBaseViewController.m */,
 				59CEF7F721CC99F700B8DC5F /* DQMNavigationController.h */,
 				59CEF7FC21CC99F700B8DC5F /* DQMNavigationController.m */,
+				59CEF7F621CC99F700B8DC5F /* DQMNavUIBaseViewController.h */,
+				59CEF7FD21CC99F700B8DC5F /* DQMNavUIBaseViewController.m */,
 				59CEF80021CC99F700B8DC5F /* DQMRequestBaseViewController.h */,
 				59CEF7F921CC99F700B8DC5F /* DQMRequestBaseViewController.m */,
-				59CEF7FA21CC99F700B8DC5F /* DQMTableViewController.h */,
-				59CEF7FF21CC99F700B8DC5F /* DQMTableViewController.m */,
 				59CEF83221CCC40400B8DC5F /* DQMStaticTableViewController.h */,
 				59CEF83321CCC40400B8DC5F /* DQMStaticTableViewController.m */,
+				59CEF7FA21CC99F700B8DC5F /* DQMTableViewController.h */,
+				59CEF7FF21CC99F700B8DC5F /* DQMTableViewController.m */,
+				59CEF7F821CC99F700B8DC5F /* DQMTextViewController.h */,
+				59CEF7FE21CC99F700B8DC5F /* DQMTextViewController.m */,
 			);
 			path = BaseControllers;
 			sourceTree = "<group>";
@@ -365,19 +365,19 @@
 		59CEF81121CCB91700B8DC5F /* HMQRCodeScanner */ = {
 			isa = PBXGroup;
 			children = (
+				59CEF84F21CDBFCD00B8DC5F /* HMScanerCardViewController.h */,
+				59CEF81A21CCB91700B8DC5F /* HMScanerCardViewController.m */,
 				59CEF85621CDD9B900B8DC5F /* HMScanner.bundle */,
 				59CEF81221CCB91700B8DC5F /* HMScanner.h */,
 				59CEF81821CCB91700B8DC5F /* HMScanner.m */,
 				59CEF81D21CCB91700B8DC5F /* HMScannerBorder.h */,
 				59CEF81321CCB91700B8DC5F /* HMScannerBorder.m */,
-				59CEF81E21CCB91700B8DC5F /* HMScannerViewController.h */,
-				59CEF81721CCB91700B8DC5F /* HMScannerViewController.m */,
-				59CEF84F21CDBFCD00B8DC5F /* HMScanerCardViewController.h */,
-				59CEF81A21CCB91700B8DC5F /* HMScanerCardViewController.m */,
-				59CEF81B21CCB91700B8DC5F /* HMScannerMaskView.h */,
-				59CEF81521CCB91700B8DC5F /* HMScannerMaskView.m */,
 				59CEF81421CCB91700B8DC5F /* HMScannerController.h */,
 				59CEF81C21CCB91700B8DC5F /* HMScannerController.m */,
+				59CEF81B21CCB91700B8DC5F /* HMScannerMaskView.h */,
+				59CEF81521CCB91700B8DC5F /* HMScannerMaskView.m */,
+				59CEF81E21CCB91700B8DC5F /* HMScannerViewController.h */,
+				59CEF81721CCB91700B8DC5F /* HMScannerViewController.m */,
 			);
 			path = HMQRCodeScanner;
 			sourceTree = "<group>";

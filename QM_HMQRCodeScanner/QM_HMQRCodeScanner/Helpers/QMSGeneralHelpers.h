@@ -42,9 +42,24 @@
 
 
 
+/**
+ 从bundle中取出图片
+
+ @param imageName 图片名称
+ @param bundleName bundle名称
+ @return 图片
+ */
 - (UIImage *)imageWithName:(NSString *)imageName bundle:(NSString *)bundleName;
 
 
 
+
+/**
+ 将View生成Image
+
+ @param view 要生成图片的视图
+ @return 图片
+ */
++ (UIImage *)imageWithCaputureView:(UIView *)view;
 
 @end

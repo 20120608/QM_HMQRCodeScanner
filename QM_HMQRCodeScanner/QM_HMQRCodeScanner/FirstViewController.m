@@ -41,5 +41,19 @@
   [self.navigationController pushViewController:vc animated:true];
 }
 
+#pragma mark - 导航栏
+/** 导航条左边的按钮 */
+- (UIImage *)dqmNavigationBarLeftButtonImage:(UIButton *)leftButton navigationBar:(DQMNavigationBar *)navigationBar
+{
+  [leftButton setImage:[UIImage imageNamed:@"NavgationBar_white_back"] forState:UIControlStateHighlighted];
+  return [UIImage imageNamed:@"NavgationBar_blue_back"];
+}
+
+#pragma mark - DQMNavUIBaseViewControllerDelegate
+/** 左边的按钮的点击 */
+-(void)leftButtonEvent:(UIButton *)sender navigationBar:(DQMNavigationBar *)navigationBarop
+{
+  [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationRight];
+}
 
 @end
